@@ -1,7 +1,7 @@
 export const LIVEPEER_URL = 'api/access-control/signing-key/';
 export const APTOS_DEV_URL = 'https://fullnode.devnet.aptoslabs.com/v1';
-export const NODE_URL = "https://fullnode.devnet.aptoslabs.com";
-export const FAUCET_URL = "https://faucet.devnet.aptoslabs.com";
+export const NODE_URL = "https://fullnode.testnet.aptoslabs.com/";
+export const FAUCET_URL = "https://faucet.testnet.aptoslabs.com";
 export const APTOS_COIN = "AptosCoin"
 export const APTOS_ADRESS = "0x1::aptos_coin::AptosCoin"
 export const APTOS_MODULE = "0x1::coin"

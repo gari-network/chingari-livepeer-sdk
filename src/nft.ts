@@ -1,4 +1,4 @@
-import { APTOS_DEV_URL, COLLECTION_NAME, COLLECTION_DESCRIPTION, COLLECTION_URI, TOKEN_DESCRIPTION, TOKEN_VERSION } from './constants';
+import { NODE_URL, COLLECTION_NAME, COLLECTION_DESCRIPTION, COLLECTION_URI, TOKEN_DESCRIPTION, TOKEN_VERSION } from './constants';
 import { AptosClient, TokenClient, AptosAccount, HexString } from 'aptos';
 import RequestPromise from 'request-promise';
 
@@ -68,7 +68,7 @@ export const uploadOnIPFS = async (API_TOKEN: string, assetId: string) => {
 
 export const createNFT = async (issuerPK: string, metadataURI: string) => {
     try {
-        const client = new AptosClient(APTOS_DEV_URL);
+        const client = new AptosClient(NODE_URL);
         const tokenClient = new TokenClient(client);
 
         const issuer = new AptosAccount(
