@@ -2,7 +2,7 @@
 --------
 ``
 ```javascript 
-npm install chingari-livepeer-sdk
+npm install chingari-livepeer
 ```
 ``
 
@@ -10,7 +10,7 @@ OR
 
 ``
 ```javascript
-yarn install chingari-livepeer-sdk
+yarn install chingari-livepeer
 ```
 ``
 
